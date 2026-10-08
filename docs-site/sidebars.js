@@ -25,6 +25,25 @@ const sidebars = {
     },
     {
       type: 'category',
+      label: 'Manual',
+      link: { type: 'doc', id: 'manual' },
+      collapsed: false,
+      items: [
+        { type: 'doc', id: 'manual', label: '00 · Manual Home' },
+        { type: 'doc', id: 'manual-getting-started', label: '01 · Getting Started' },
+        { type: 'doc', id: 'manual-cli-reference', label: '02 · CLI Command Reference' },
+        { type: 'doc', id: 'manual-web-guide', label: '03 · Web Application Guide' },
+        { type: 'doc', id: 'manual-suite-v4', label: '04 · Suite v4 (Latest EVM, BYOS)' },
+        { type: 'doc', id: 'manual-suite-v2-v3', label: '05 · Suite v2 + v3 (Earlier EVM, IPFS)' },
+        { type: 'doc', id: 'manual-cosmwasm-v1-archive', label: '06 · CosmWasm v1 Archive' },
+        { type: 'doc', id: 'manual-protocol-contracts', label: '07 · On-Chain Contracts and Protocol' },
+        { type: 'doc', id: 'manual-byos-storage', label: '08 · BYOS Storage and Credentials' },
+        { type: 'doc', id: 'manual-developer-guide', label: '09 · Developer Guide' },
+        { type: 'doc', id: 'manual-troubleshooting', label: '10 · Troubleshooting and FAQ' },
+      ],
+    },
+    {
+      type: 'category',
       label: 'Status',
       items: [
         { type: 'doc', id: 'project-status', label: 'Project Status' },
