@@ -17,7 +17,8 @@
     "write-translations": "docusaurus write-translations -l zh",
     "fetch:contributors": "node scripts/fetch-contributors.mjs",
     "gen:zh-stubs": "node scripts/gen-zh-stubs.mjs",
-    "sync:docs": "node scripts/sync-main-docs.mjs"
+    "sync:docs": "node scripts/sync-main-docs.mjs",
+    "mirror:zh": "node scripts/mirror-zh-authored.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "^3.7.0",
@@ -30,7 +31,15 @@
     "rehype-external-links": "^3.0.0"
   },
   "browserslist": {
-    "production": [">0.5%", "not dead", "not op_mini all"],
-    "development": ["last 3 chrome versions", "last 3 firefox versions", "last 5 safari versions"]
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome versions",
+      "last 3 firefox versions",
+      "last 5 safari versions"
+    ]
   }
 }

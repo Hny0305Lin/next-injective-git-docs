@@ -4,9 +4,10 @@
 > Vercel / Cloudflare 控制台完成。** AI/代理不得执行部署、不得申请账号、
 > 不得接触任何部署凭证（Vercel token、Cloudflare API key 等）。
 >
-> 文中 `<your-domain.example>` 为**占位域名**：拿到真实域名后，先替换
-> `docs-site/docusaurus.config.js` 里的 `url`，再推送，否则 canonical
-> URL / og:image 会指向占位域。
+> **当前状态（2026-10-09）**：站点已由用户部署上线，
+> **https://docs.igit.xyz** （Vercel 导入 `Hny0305Lin/next-injective-git-docs`，
+> Root Directory=`docs-site`）。`docusaurus.config.js` 的 `url` 已同步为该
+> 域名。本文余下步骤留作复核/重做/换域名时的操作记录。
 
 ## 0. 前置条件（用户本人确认）
 
@@ -54,17 +55,17 @@
 
 以下任选其一（推荐 A：子域名）：
 
-### A. 子域名（例如 `docs.<your-domain.example>`）
+### A. 子域名（例如 `docs.igit.xyz`）
 
 1. Cloudflare 控制台 → 你的域名 → **DNS → Records → Add record**：
    - Type: `CNAME`
-   - Name: `docs`（即 `docs.<your-domain.example>`）
+   - Name: `docs`（即 `docs.igit.xyz`）
    - Target: `cname.vercel-dns.com`
    - Proxy status: **DNS only（灰云）**——Vercel 自带 SSL 与 CDN，
      代理开启可能导致证书/重定向问题。
 2. 记录 TTL 默认（Auto）即可。
 
-### B. Apex 顶级域（`<your-domain.example>` 直接作为站点域名）
+### B. Apex 顶级域（`igit.xyz` 直接作为站点域名）
 
 1. Cloudflare DNS 添加：
    - Type: `A`，Name: `@`，Target: `76.76.21.21`，Proxy: DNS only。
@@ -75,25 +76,25 @@
 ## 3. Vercel 添加自定义域名（用户本人操作）
 
 1. Vercel 项目 → **Settings → Domains → Add**，输入
-   `docs.<your-domain.example>`（或裸域）。
+   `docs.igit.xyz`（或裸域）。
 2. Vercel 校验 DNS：显示 "Valid Configuration" 即成功；未生效时会给出
    它当前检测到的记录值，对照修正 Cloudflare。
 3. SSL：Vercel 自动签发 Let's Encrypt 证书，无需手动操作。
 
 ## 4. DNS 生效验证（用户本人操作）
 
-- `nslookup docs.<your-domain.example>`（或 `dig +short`）应返回
+- `nslookup docs.igit.xyz`（或 `dig +short`）应返回
   Vercel 的 CNAME 解析结果。
-- 浏览器打开 `https://docs.<your-domain.example/`：
+- 浏览器打开 `https://docs.igit.xyz/`：
   - 首页应显示 iGit 徽标与 Contributors 墙；
   - 右上角语言切换 → 中文，URL 变为 `/zh/`；
-  - `https://docs.<your-domain.example/docs/adr` 显示 ADR 索引。
+  - `https://docs.igit.xyz/docs/adr` 显示 ADR 索引。
 - 生效时间：通常 1–5 分钟，最长 24–48 小时。
 
 ## 5. 域名落地后的收尾（改完推送即可，Vercel 自动重新部署）
 
-1. 把 `docs-site/docusaurus.config.js` 的 `url` 从占位
-   `https://docs.igit.example` 改为真实域名（带 `https://`，结尾无 `/`）。
+1. `docusaurus.config.js` 的 `url` 已于 2026-10-09 设为 `https://docs.igit.xyz`。
+   换域名时：改 `url` → 本地 `npm run build` 验证 → 提交推送，Vercel 自动重部署。
 2. `npm --prefix docs-site run build` 本地验证后提交推送。
 
 ## 6. 回滚

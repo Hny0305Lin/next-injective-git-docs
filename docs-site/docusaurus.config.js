@@ -11,9 +11,9 @@ const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 const repoUrl = 'https://github.com/Hny0305Lin/next-injective-git';
 
-// Site URL placeholder — replace `docs.igit.example` with the real domain when
-// it is provided (see docs-site/DEPLOYMENT.md). baseUrl stays '/'.
-const siteUrl = 'https://docs.igit.example';
+// Production site URL (user-confirmed 2026-10-09). Keep in sync with the
+// Vercel deployment + Cloudflare DNS record (see docs-site/DEPLOYMENT.md).
+const siteUrl = 'https://docs.igit.xyz';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {

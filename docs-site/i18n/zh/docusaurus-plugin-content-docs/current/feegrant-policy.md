@@ -1,9 +1,9 @@
-# Gas Sponsorship Status
+# Gas 赞助状态
 
-> 🚧 **翻译进行中 · Translation in progress**
->
-> 本页面尚未翻译为中文。请先阅读英文原版：
-> [English version](/docs/feegrant-policy)。
->
-> 译文完成后将替换本占位页；双语页面必须一一对应，不允许静默缺失
-> （流程见仓库根目录 `AGENTS.md` 与 `docs/AGENTS.md`）。
+旧的链原生 feegrant 封装不属于不可变 EVM 套件运行时，也不在默认 CI/发布
+路径内。当前的每笔写入都是普通 EVM 交易，由签名者自付 gas：显式估算
+gas，最低 gas price 为 `160000000 wei`。
+
+未来的用户 gas 赞助若要引入，必须设计为独立的 EVM 兼容服务，具备有界的
+授权、重放防护、限流、记账与滥用控制；不得引入第二个链后端，也不得绕过
+SuiteDirectory 校验。
