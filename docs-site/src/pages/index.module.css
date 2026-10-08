@@ -1,0 +1,17 @@
+/**
+ * Any CSS here will be applied to the homepage only.
+ */
+
+.buttons-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+@media (max-width: 500px) {
+  .buttons-row {
+    flex-direction: column;
+  }
+}

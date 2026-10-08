@@ -1,0 +1,230 @@
+{
+  "version.label": {
+    "message": "当前",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.Getting Started": {
+    "message": "开始",
+    "description": "The label for category 'Getting Started' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Status": {
+    "message": "状态",
+    "description": "The label for category 'Status' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Storage & BYOS": {
+    "message": "存储与 BYOS",
+    "description": "The label for category 'Storage & BYOS' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Operations": {
+    "message": "运维",
+    "description": "The label for category 'Operations' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Architecture Decision Records": {
+    "message": "架构决策记录（ADR）",
+    "description": "The label for category 'Architecture Decision Records' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Architecture Decision Records.link.generated-index.title": {
+    "message": "架构决策记录（ADR）",
+    "description": "The generated-index page title for category 'Architecture Decision Records' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Architecture Decision Records.link.generated-index.description": {
+    "message": "Next Injective Git 的不可变决策记录。docs/adr 中的英文原件是唯一事实源；本地化副本仅为信息性译文。",
+    "description": "The generated-index page description for category 'Architecture Decision Records' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Migration History": {
+    "message": "迁移历史",
+    "description": "The label for category 'Migration History' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Verification": {
+    "message": "验证",
+    "description": "The label for category 'Verification' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Web & UI": {
+    "message": "Web 与界面",
+    "description": "The label for category 'Web & UI' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Working Notes (historical)": {
+    "message": "工作笔记（历史）",
+    "description": "The label for category 'Working Notes (historical)' in sidebar 'docs'"
+  },
+  "sidebar.docs.doc.Documentation Index": {
+    "message": "文档索引",
+    "description": "The label for the doc item 'Documentation Index' in sidebar 'docs', linking to the doc README"
+  },
+  "sidebar.docs.doc.Architecture": {
+    "message": "架构",
+    "description": "The label for the doc item 'Architecture' in sidebar 'docs', linking to the doc architecture"
+  },
+  "sidebar.docs.doc.Suite Version Compatibility": {
+    "message": "套件版本兼容性",
+    "description": "The label for the doc item 'Suite Version Compatibility' in sidebar 'docs', linking to the doc suite-version-compatibility"
+  },
+  "sidebar.docs.doc.Glossary": {
+    "message": "术语表",
+    "description": "The label for the doc item 'Glossary' in sidebar 'docs', linking to the doc glossary"
+  },
+  "sidebar.docs.doc.Project Status": {
+    "message": "项目状态",
+    "description": "The label for the doc item 'Project Status' in sidebar 'docs', linking to the doc project-status"
+  },
+  "sidebar.docs.doc.Backlog": {
+    "message": "待办",
+    "description": "The label for the doc item 'Backlog' in sidebar 'docs', linking to the doc backlog"
+  },
+  "sidebar.docs.doc.Open Decisions": {
+    "message": "未决事项",
+    "description": "The label for the doc item 'Open Decisions' in sidebar 'docs', linking to the doc open-questions"
+  },
+  "sidebar.docs.doc.Delivery Roadmap": {
+    "message": "交付路线图",
+    "description": "The label for the doc item 'Delivery Roadmap' in sidebar 'docs', linking to the doc delivery-roadmap"
+  },
+  "sidebar.docs.doc.BYOS Specification (S3/R2)": {
+    "message": "BYOS 实施规格（S3/R2）",
+    "description": "The label for the doc item 'BYOS Specification (S3/R2)' in sidebar 'docs', linking to the doc storage-byos"
+  },
+  "sidebar.docs.doc.BYOS Provider Roadmap (Mainland China)": {
+    "message": "BYOS 厂商路线图（中国大陆）",
+    "description": "The label for the doc item 'BYOS Provider Roadmap (Mainland China)' in sidebar 'docs', linking to the doc roadmap-byos-providers"
+  },
+  "sidebar.docs.doc.Pinning Infrastructure": {
+    "message": "Pinning 基础设施",
+    "description": "The label for the doc item 'Pinning Infrastructure' in sidebar 'docs', linking to the doc pinning-infrastructure"
+  },
+  "sidebar.docs.doc.IPFS Data Plane (as-built)": {
+    "message": "IPFS 数据平面（建成记录）",
+    "description": "The label for the doc item 'IPFS Data Plane (as-built)' in sidebar 'docs', linking to the doc infrastructure"
+  },
+  "sidebar.docs.doc.Release & Cutover": {
+    "message": "发布与切换",
+    "description": "The label for the doc item 'Release & Cutover' in sidebar 'docs', linking to the doc release"
+  },
+  "sidebar.docs.doc.Acceptance Evidence": {
+    "message": "验收证据",
+    "description": "The label for the doc item 'Acceptance Evidence' in sidebar 'docs', linking to the doc acceptance-evidence"
+  },
+  "sidebar.docs.doc.Public Monitor": {
+    "message": "公开监控页",
+    "description": "The label for the doc item 'Public Monitor' in sidebar 'docs', linking to the doc monitor"
+  },
+  "sidebar.docs.doc.Push Setup": {
+    "message": "Push 配置",
+    "description": "The label for the doc item 'Push Setup' in sidebar 'docs', linking to the doc push-setup"
+  },
+  "sidebar.docs.doc.CI Web Publishing": {
+    "message": "CI Web 发布",
+    "description": "The label for the doc item 'CI Web Publishing' in sidebar 'docs', linking to the doc ci-web-publishing"
+  },
+  "sidebar.docs.doc.EVM Wallet Compatibility": {
+    "message": "EVM 钱包兼容性",
+    "description": "The label for the doc item 'EVM Wallet Compatibility' in sidebar 'docs', linking to the doc evm-wallet-compatibility"
+  },
+  "sidebar.docs.doc.Feegrant Policy": {
+    "message": "Feegrant 策略",
+    "description": "The label for the doc item 'Feegrant Policy' in sidebar 'docs', linking to the doc feegrant-policy"
+  },
+  "sidebar.docs.doc.Archived Repositories": {
+    "message": "归档仓库",
+    "description": "The label for the doc item 'Archived Repositories' in sidebar 'docs', linking to the doc archived-repositories"
+  },
+  "sidebar.docs.doc.ADR 0001 · EVM v2 Runtime and Migration Scope": {
+    "message": "ADR 0001 · EVM v2 运行时与迁移范围",
+    "description": "The label for the doc item 'ADR 0001 · EVM v2 Runtime and Migration Scope' in sidebar 'docs', linking to the doc adr/evm-v2-runtime-and-migration-scope"
+  },
+  "sidebar.docs.doc.ADR 0002 · Pluggable Pack Storage": {
+    "message": "ADR 0002 · 可插拔 Pack 存储",
+    "description": "The label for the doc item 'ADR 0002 · Pluggable Pack Storage' in sidebar 'docs', linking to the doc adr/pluggable-pack-storage"
+  },
+  "sidebar.docs.doc.ADR 0003 · Fresh EVM Suite and V1 Archive Preview": {
+    "message": "ADR 0003 · 空状态全新 EVM 套件与 V1 归档预览",
+    "description": "The label for the doc item 'ADR 0003 · Fresh EVM Suite and V1 Archive Preview' in sidebar 'docs', linking to the doc adr/fresh-evm-suite-and-v1-archive-preview"
+  },
+  "sidebar.docs.doc.ADR 0004 · Mainnet Storage-Neutral Successor and BYOS Scope": {
+    "message": "ADR 0004 · 主网存储中立后继与 BYOS 范围",
+    "description": "The label for the doc item 'ADR 0004 · Mainnet Storage-Neutral Successor and BYOS Scope' in sidebar 'docs', linking to the doc adr/mainnet-storage-neutral-successor-and-byos-scope"
+  },
+  "sidebar.docs.doc.ADR 0005 · Incremental Packs via Manifest Schema 2": {
+    "message": "ADR 0005 · 基于 Manifest Schema 2 的增量 Pack",
+    "description": "The label for the doc item 'ADR 0005 · Incremental Packs via Manifest Schema 2' in sidebar 'docs', linking to the doc adr/incremental-packs-via-manifest-schema-2"
+  },
+  "sidebar.docs.doc.EVM v2 Migration Guide": {
+    "message": "EVM v2 迁移指南",
+    "description": "The label for the doc item 'EVM v2 Migration Guide' in sidebar 'docs', linking to the doc evm-v2-migration"
+  },
+  "sidebar.docs.doc.Target Topology Migration": {
+    "message": "目标拓扑迁移",
+    "description": "The label for the doc item 'Target Topology Migration' in sidebar 'docs', linking to the doc target-topology-migration"
+  },
+  "sidebar.docs.doc.A11 Storage Indexer v2": {
+    "message": "A11 存储索引器 v2",
+    "description": "The label for the doc item 'A11 Storage Indexer v2' in sidebar 'docs', linking to the doc a11-storage-indexer-v2"
+  },
+  "sidebar.docs.doc.EVM v2 Repo Identity": {
+    "message": "EVM v2 仓库身份",
+    "description": "The label for the doc item 'EVM v2 Repo Identity' in sidebar 'docs', linking to the doc evm-v2-repo-identity"
+  },
+  "sidebar.docs.doc.Reconciliation Baseline (2026-09-12)": {
+    "message": "事实基线（2026-09-12）",
+    "description": "The label for the doc item 'Reconciliation Baseline (2026-09-12)' in sidebar 'docs', linking to the doc reconciliation-baseline-2026-09-12"
+  },
+  "sidebar.docs.doc.P0 Evidence": {
+    "message": "P0 证据",
+    "description": "The label for the doc item 'P0 Evidence' in sidebar 'docs', linking to the doc p0-evidence"
+  },
+  "sidebar.docs.doc.EVM v2 Repair Plan": {
+    "message": "EVM v2 修复计划",
+    "description": "The label for the doc item 'EVM v2 Repair Plan' in sidebar 'docs', linking to the doc evm-v2-repair-plan"
+  },
+  "sidebar.docs.doc.EVM v2 Handoff": {
+    "message": "EVM v2 交接",
+    "description": "The label for the doc item 'EVM v2 Handoff' in sidebar 'docs', linking to the doc evm-v2-handoff"
+  },
+  "sidebar.docs.doc.Keplr Acceptance": {
+    "message": "Keplr 验收",
+    "description": "The label for the doc item 'Keplr Acceptance' in sidebar 'docs', linking to the doc keplr-acceptance"
+  },
+  "sidebar.docs.doc.E2E Verification Summary": {
+    "message": "端到端验证总结",
+    "description": "The label for the doc item 'E2E Verification Summary' in sidebar 'docs', linking to the doc e2e-verification-summary"
+  },
+  "sidebar.docs.doc.E2E Visual Verification Report": {
+    "message": "端到端视觉验证报告",
+    "description": "The label for the doc item 'E2E Visual Verification Report' in sidebar 'docs', linking to the doc e2e-visual-verification-report"
+  },
+  "sidebar.docs.doc.Frontend Improvement Analysis": {
+    "message": "前端改进分析",
+    "description": "The label for the doc item 'Frontend Improvement Analysis' in sidebar 'docs', linking to the doc frontend-improvement-analysis"
+  },
+  "sidebar.docs.doc.Gogs Frontend Redesign": {
+    "message": "Gogs 前端重设计",
+    "description": "The label for the doc item 'Gogs Frontend Redesign' in sidebar 'docs', linking to the doc gogs-frontend-redesign"
+  },
+  "sidebar.docs.doc.Web Repository Search Draft": {
+    "message": "Web 仓库搜索草案",
+    "description": "The label for the doc item 'Web Repository Search Draft' in sidebar 'docs', linking to the doc web-repository-search-draft"
+  },
+  "sidebar.docs.doc.LiveAgent EVM v2 Context": {
+    "message": "LiveAgent EVM v2 背景",
+    "description": "The label for the doc item 'LiveAgent EVM v2 Context' in sidebar 'docs', linking to the doc liveagent-evm-v2-context"
+  },
+  "sidebar.docs.doc.LiveAgent Continuation (2026-09-20)": {
+    "message": "LiveAgent 续篇（2026-09-20）",
+    "description": "The label for the doc item 'LiveAgent Continuation (2026-09-20)' in sidebar 'docs', linking to the doc liveagent-continuation-2026-09-20"
+  },
+  "sidebar.docs.doc.Priority Mapping": {
+    "message": "优先级映射",
+    "description": "The label for the doc item 'Priority Mapping' in sidebar 'docs', linking to the doc PRIORITY-MAPPING"
+  },
+  "sidebar.docs.doc.Prompt · Next Storage Implementation (S01–S03)": {
+    "message": "任务书 · 存储实施（S01–S03）",
+    "description": "The label for the doc item 'Prompt · Next Storage Implementation (S01–S03)' in sidebar 'docs', linking to the doc prompts/next-storage-implementation"
+  },
+  "sidebar.docs.doc.Prompt · S04/S05 Successor Integration": {
+    "message": "任务书 · S04/S05 后继集成",
+    "description": "The label for the doc item 'Prompt · S04/S05 Successor Integration' in sidebar 'docs', linking to the doc prompts/s04-s05-successor-integration"
+  },
+  "sidebar.docs.doc.Prompt · BYOS Hands-on Validation": {
+    "message": "任务书 · BYOS 实测验证",
+    "description": "The label for the doc item 'Prompt · BYOS Hands-on Validation' in sidebar 'docs', linking to the doc prompts/storage-byos-hands-on-validation"
+  }
+}

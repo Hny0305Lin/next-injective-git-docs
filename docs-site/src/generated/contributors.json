@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "repo": {
+    "owner": "Hny0305Lin",
+    "name": "next-injective-git"
+  },
+  "fetchedAt": "2026-10-08T19:12:42.616Z",
+  "source": "github-api",
+  "contributors": [
+    {
+      "login": "Hny0305Lin",
+      "htmlUrl": "https://github.com/Hny0305Lin",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/51528915?v=4",
+      "contributions": 120
+    },
+    {
+      "login": "MiraHikari",
+      "htmlUrl": "https://github.com/MiraHikari",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/69497500?v=4",
+      "contributions": 20
+    },
+    {
+      "login": "Burial0268",
+      "htmlUrl": "https://github.com/Burial0268",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/71890055?v=4",
+      "contributions": 6
+    },
+    {
+      "login": "hzeyu3958-cloud",
+      "htmlUrl": "https://github.com/hzeyu3958-cloud",
+      "avatarUrl": "https://avatars.githubusercontent.com/u/258392117?v=4",
+      "contributions": 4
+    }
+  ]
+}

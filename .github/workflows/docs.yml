@@ -1,0 +1,52 @@
+name: docs
+
+# Documentation site build gate for the docs repo. Triggers on the site
+# toolchain, the mirrored content from the main repository, and itself.
+on:
+  push:
+    branches: [main, master, dev]
+    paths:
+      - "docs-site/**"
+      - "docs/**"
+      - ".github/workflows/docs.yml"
+  pull_request:
+    paths:
+      - "docs-site/**"
+      - "docs/**"
+      - ".github/workflows/docs.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: docs site build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs-site
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          # Must stay in sync with docs-site/package.json "engines".
+          node-version: 24
+          cache: npm
+          cache-dependency-path: docs-site/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Best effort: refresh the committed contributors cache. The script
+      # falls back to the committed cache on any failure (including a missing
+      # token), so this step can never turn the build red. It queries the
+      # MAIN repository (Hny0305Lin/next-injective-git) — the project the
+      # contributors belong to — not this docs repo.
+      - name: Refresh contributors cache (best effort)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run fetch:contributors
+
+      - name: Build site (en + zh)
+        run: npm run build

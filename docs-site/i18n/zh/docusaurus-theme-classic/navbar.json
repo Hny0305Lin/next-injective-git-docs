@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Next Injective Git",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Next Injective Git 徽标",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Docs": {
+    "message": "文档",
+    "description": "Navbar item with label Docs"
+  },
+  "item.label.ADR": {
+    "message": "ADR",
+    "description": "Navbar item with label ADR"
+  },
+  "item.label.Status": {
+    "message": "状态",
+    "description": "Navbar item with label Status"
+  },
+  "item.label.Roadmap": {
+    "message": "路线图",
+    "description": "Navbar item with label Roadmap"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

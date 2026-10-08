@@ -1,0 +1,185 @@
+/**
+ * Next Injective Git docs site — Tauri-docs-inspired visual language:
+ * system font stack, restrained blue accent, subtle borders and shadows,
+ * first-class dark mode.
+ */
+
+:root {
+  --ifm-font-family-base: 'Inter', 'Segoe UI', system-ui, -apple-system,
+    'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  --ifm-color-primary: #0081fa;
+  --ifm-color-primary-dark: #0073e1;
+  --ifm-color-primary-darker: #0069d1;
+  --ifm-color-primary-darkest: #0057ae;
+  --ifm-color-primary-light: #1a8dfb;
+  --ifm-color-primary-lighter: #3399fb;
+  --ifm-color-primary-lightest: #66b0fc;
+  --ifm-code-font-size: 92%;
+  --docusaurus-tag-list-border: var(--ifm-color-emphasis-200);
+  --igit-hero-radius: 1.75rem;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #4da3ff;
+  --ifm-color-primary-dark: #3393fb;
+  --ifm-color-primary-darker: #1f85fa;
+  --ifm-color-primary-darkest: #0069d1;
+  --ifm-color-primary-light: #66b0fc;
+  --ifm-color-primary-lighter: #80bcfc;
+  --ifm-color-primary-lightest: #99c8fd;
+  --ifm-background-color: #0f1420;
+  --ifm-navbar-background-color: #131926;
+  --ifm-footer-background-color: #131926;
+}
+
+/* ---------- Homepage hero ---------- */
+
+.hero-igit {
+  padding: 4rem 0 3rem;
+  background:
+    radial-gradient(60rem 24rem at 85% -10%, rgba(0, 129, 250, 0.12), transparent),
+    radial-gradient(50rem 22rem at 0% 110%, rgba(0, 129, 250, 0.08), transparent);
+}
+
+[data-theme='dark'] .hero-igit {
+  background:
+    radial-gradient(60rem 24rem at 85% -10%, rgba(77, 163, 255, 0.14), transparent),
+    radial-gradient(50rem 22rem at 0% 110%, rgba(77, 163, 255, 0.08), transparent);
+}
+
+.hero-igit .hero__title {
+  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.hero-igit .hero__subtitle {
+  max-width: 42rem;
+  margin-inline: auto;
+  font-size: 1.05rem;
+}
+
+.hero-igit-logo {
+  width: 9.5rem;
+  height: 9.5rem;
+  border-radius: var(--igit-hero-radius);
+  box-shadow: 0 18px 48px rgba(2, 8, 20, 0.28), 0 2px 8px rgba(2, 8, 20, 0.18);
+  border: 1px solid rgba(127, 156, 191, 0.25);
+  background: #fff;
+  padding: 0.5rem;
+}
+
+[data-theme='dark'] .hero-igit-logo {
+  background: #e7edf7;
+}
+
+/* ---------- Feature cards ---------- */
+
+.features-igit {
+  padding: 2.5rem 0 3.5rem;
+}
+
+.featureCard-igit {
+  height: 100%;
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+}
+
+.featureCard-igit:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 10px 30px rgba(2, 8, 20, 0.1);
+  transform: translateY(-2px);
+}
+
+.featureCard-igit h3 {
+  margin-bottom: 0.5rem;
+}
+
+.featureIcon-igit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.75rem;
+  background: color-mix(in srgb, var(--ifm-color-primary) 12%, transparent);
+  color: var(--ifm-color-primary);
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ---------- Contributors wall ---------- */
+
+.contributors-igit {
+  padding: 3rem 0 4rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.contributors-igit h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.contributorsGrid-igit {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(4.25rem, 1fr));
+  gap: 1.1rem;
+  justify-items: center;
+  margin-top: 1.5rem;
+}
+
+.contributorAvatar-igit {
+  display: block;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  border: 2px solid var(--ifm-color-emphasis-200);
+  transition: border-color 120ms ease, transform 120ms ease, box-shadow 120ms ease;
+}
+
+.contributorItem-igit:hover .contributorAvatar-igit,
+.contributorItem-igit:focus-visible .contributorAvatar-igit {
+  border-color: var(--ifm-color-primary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(2, 8, 20, 0.16);
+}
+
+.contributorName-igit {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+  color: var(--ifm-color-emphasis-800);
+  max-width: 4.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.contributorsMeta-igit {
+  margin-top: 1.25rem;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+}
+
+.contributorsNote-igit {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* ---------- Docs polish ---------- */
+
+.theme-doc-markdown markdown a {
+  text-decoration-thickness: from-font;
+}
+
+.markdown h1:first-child {
+  letter-spacing: -0.01em;
+}
+
+.navbar__logo {
+  border-radius: 0.4rem;
+}

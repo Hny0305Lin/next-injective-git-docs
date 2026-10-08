@@ -1,0 +1,36 @@
+{
+  "name": "next-injective-git-docs-site",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Docusaurus 3 bilingual (en/zh) documentation site for Next Injective Git. Content source of truth lives in ../docs; this folder only holds site tooling.",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "write-translations": "docusaurus write-translations -l zh",
+    "fetch:contributors": "node scripts/fetch-contributors.mjs",
+    "gen:zh-stubs": "node scripts/gen-zh-stubs.mjs",
+    "sync:docs": "node scripts/sync-main-docs.mjs"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.7.0",
+    "@docusaurus/preset-classic": "^3.7.0",
+    "@mdx-js/react": "^3.1.0",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rehype-external-links": "^3.0.0"
+  },
+  "browserslist": {
+    "production": [">0.5%", "not dead", "not op_mini all"],
+    "development": ["last 3 chrome versions", "last 3 firefox versions", "last 5 safari versions"]
+  }
+}

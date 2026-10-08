@@ -1,0 +1,7 @@
+# Docusaurus build artifacts and dependencies (never committed)
+node_modules/
+build/
+.docusaurus/
+.env
+.env.*
+*.log
