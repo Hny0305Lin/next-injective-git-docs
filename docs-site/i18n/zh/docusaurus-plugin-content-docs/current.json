@@ -7,6 +7,54 @@
     "message": "开始",
     "description": "The label for category 'Getting Started' in sidebar 'docs'"
   },
+  "sidebar.docs.category.Manual": {
+    "message": "手册",
+    "description": "The label for category 'Manual' in sidebar 'docs'"
+  },
+  "sidebar.docs.doc.00 · Manual Home": {
+    "message": "00 · 手册主页",
+    "description": "The label for the doc item '00 · Manual Home' in sidebar 'docs', linking to the doc manual"
+  },
+  "sidebar.docs.doc.01 · Getting Started": {
+    "message": "01 · 快速开始",
+    "description": "The label for the doc item '01 · Getting Started' in sidebar 'docs', linking to the doc manual-getting-started"
+  },
+  "sidebar.docs.doc.02 · CLI Command Reference": {
+    "message": "02 · CLI 命令参考",
+    "description": "The label for the doc item '02 · CLI Command Reference' in sidebar 'docs', linking to the doc manual-cli-reference"
+  },
+  "sidebar.docs.doc.03 · Web Application Guide": {
+    "message": "03 · Web 应用指南",
+    "description": "The label for the doc item '03 · Web Application Guide' in sidebar 'docs', linking to the doc manual-web-guide"
+  },
+  "sidebar.docs.doc.04 · Suite v4 (Latest EVM, BYOS)": {
+    "message": "04 · Suite v4（最新 EVM，BYOS）",
+    "description": "The label for the doc item '04 · Suite v4 (Latest EVM, BYOS)' in sidebar 'docs', linking to the doc manual-suite-v4"
+  },
+  "sidebar.docs.doc.05 · Suite v2 + v3 (Earlier EVM, IPFS)": {
+    "message": "05 · Suite v2 + v3（较早 EVM，IPFS）",
+    "description": "The label for the doc item '05 · Suite v2 + v3 (Earlier EVM, IPFS)' in sidebar 'docs', linking to the doc manual-suite-v2-v3"
+  },
+  "sidebar.docs.doc.06 · CosmWasm v1 Archive": {
+    "message": "06 · CosmWasm v1 归档",
+    "description": "The label for the doc item '06 · CosmWasm v1 Archive' in sidebar 'docs', linking to the doc manual-cosmwasm-v1-archive"
+  },
+  "sidebar.docs.doc.07 · On-Chain Contracts and Protocol": {
+    "message": "07 · 链上合约与协议",
+    "description": "The label for the doc item '07 · On-Chain Contracts and Protocol' in sidebar 'docs', linking to the doc manual-protocol-contracts"
+  },
+  "sidebar.docs.doc.08 · BYOS Storage and Credentials": {
+    "message": "08 · BYOS 存储与凭据",
+    "description": "The label for the doc item '08 · BYOS Storage and Credentials' in sidebar 'docs', linking to the doc manual-byos-storage"
+  },
+  "sidebar.docs.doc.09 · Developer Guide": {
+    "message": "09 · 开发者指南",
+    "description": "The label for the doc item '09 · Developer Guide' in sidebar 'docs', linking to the doc manual-developer-guide"
+  },
+  "sidebar.docs.doc.10 · Troubleshooting and FAQ": {
+    "message": "10 · 故障排查与 FAQ",
+    "description": "The label for the doc item '10 · Troubleshooting and FAQ' in sidebar 'docs', linking to the doc manual-troubleshooting"
+  },
   "sidebar.docs.category.Status": {
     "message": "状态",
     "description": "The label for category 'Status' in sidebar 'docs'"
