@@ -75,7 +75,7 @@ export default function Home() {
 
   return (
     <Layout
-      title={translate({ id: 'homepage.title' })}
+      title={translate({ id: 'homepage.title', message: 'igit' })}
       description={translate({
         id: 'homepage.description',
         message:
